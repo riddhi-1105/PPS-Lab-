@@ -1,0 +1,19 @@
+subject1 = float(input("subject 1: "))
+subject2 = float(input("subject 2: "))
+subject3 = float(input("subject 3: "))
+subject4 = float(input("subject 4: "))
+subject5 = float(input("subject 5: "))
+
+average_marks = (subject1 + subject2 + subject3 + subject4 + subject5) / 5
+print(f"Average Marks: {average_marks:.2f}")
+
+if 90 <= average_marks <= 100:
+	print("Grade: A")
+elif 80 <= average_marks <90:
+	print("Grade: B")
+elif 70 <= average_marks <80:
+	print("Grade: C")
+elif 60 <= average_marks < 70:
+	print("Grade: D")
+else:
+	print("Grade: F")
