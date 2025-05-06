@@ -1,0 +1,5 @@
+def sum_of_digit(n):
+	total=sum(int(digit) for digit in str(n))
+	print("sum:",total)
+n=int(input("num: ").strip())
+sum_of_digit(n)
